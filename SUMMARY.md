@@ -7,6 +7,10 @@
 * [Quickstart](getting-started/quickstart.md)
 * [Publish your docs](getting-started/publish-your-docs.md)
 
+## Pod
+
+* [Overview](pods/overview.md)
+
 ## Basics
 
 * [Editor](basics/editor.md)
