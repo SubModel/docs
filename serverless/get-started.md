@@ -121,7 +121,7 @@ Now that you've pushed your container registry, you're ready to deploy your Serv
 
 This step will guide you through deploying a Serverless Endpoint to SubModel. You can refer to this walkthrough to deploy your own custom Docker image.
 
-1. Log in to the [SubModel Serverless console](https://www.submodel.io/console/serverless).
+1. Log in to the [SubModel Serverless console](https://submodel.ai/#/serverless/list).
 2. Select **+ New Endpoint**.
 3. Provide the following:
    1. Endpoint name.
