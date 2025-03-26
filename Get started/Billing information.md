@@ -12,4 +12,4 @@ For more information on billing questions, see [Billing FAQ](../references/Billi
 
 - **Business Invoicing**: For large transactions, Submodel.ai supports business invoicing through local and international wire transfers. For more details, please [contact us](../contact-us.md).
 
-If you're having trouble with your card payments, you can contact us at [business@submodel.ai](../contact-us.md) for assistance.
+If you're having trouble with your card payments, you can [contact us](../contact-us.md) for assistance.

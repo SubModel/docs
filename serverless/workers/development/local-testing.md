@@ -123,4 +123,4 @@ python your_handler.py --rp_serve_api --rp_log_level DEBUG --rp_debugger
 
 Local testing is a crucial step in developing robust and reliable serverless functions for SubModel. By utilizing these local testing options, you can catch and fix issues early, optimize your function's performance, and ensure a smoother deployment process.
 
-For more detailed information on local testing and advanced usage scenarios, refer to our [blog post](https://blog.SubModel.io/workers-local-api-server-introduced-with-SubModel-python-0-9-13/) and the other tutorials in this documentation.
+<!--For more detailed information on local testing and advanced usage scenarios, refer to our [blog post](https://blog.SubModel.io/workers-local-api-server-introduced-with-SubModel-python-0-9-13/) and the other tutorials in this documentation.
