@@ -30,4 +30,4 @@ submodel.serverless.start({
 > **Note**  
 > Be cautious with `try/except` blocks in your handler function. Avoid suppressing errors unintentionally. You should either return the error for a graceful failure or raise it to flag the job as `FAILED`.
 
-One design pattern to consider is to [Refresh your Worker](#refresh-worker) when an error occurs.
+One design pattern to consider is to [Refresh your Worker](handler-additional-controls.md#refresh-worker) when an error occurs.

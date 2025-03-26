@@ -14,7 +14,7 @@ Before you begin, ensure you have the following:
 
 You can deploy a vLLM Worker with a model directly from Hugging Face using SubModel's Web UI.
 
-1. Log in to your SubModel account and navigate to the [Serverless page](https://www.submodel.ai/console/serverless).
+1. Log in to your SubModel account and navigate to the [Serverless page](https://submodel.ai/#/serverless/list).
 2. Under **Quick Deploy**, locate **Serverless vLLM** and click **Start**.
 
 You will now enter the vLLM module. Follow the on-screen instructions to configure your LLM as a Serverless Endpoint:
@@ -37,7 +37,7 @@ On the **Endpoint parameters** page, configure your deployment:
    - Adjust the **Container Disk** size if necessary.
 3. Click **Deploy**.
 
-Once the Endpoint initializes, you can start sending requests to your [Endpoint](/serverless/endpoints/get-started). Proceed to the [Send a Request](#send-a-request) section for further instructions.
+Once the Endpoint initializes, you can start sending requests to your [Endpoint](/serverless/endpoints/get-started). Proceed to the [Send a Request](#sending-a-request) section for further instructions.
 
 ## Deploying via the Worker Image
 
@@ -61,7 +61,7 @@ Follow these steps to deploy the vLLM Worker on a Serverless Endpoint:
      - `HF_TOKEN`: (Optional) Provide your Hugging Face API token for private models
 4. Click **Deploy**.
 
-Once the Endpoint initializes, you can start sending requests to your [Endpoint](/serverless/endpoints/get-started). Proceed to the [Send a Request](#send-a-request) section for further instructions.
+Once the Endpoint initializes, you can start sending requests to your [Endpoint](/serverless/endpoints/get-started). Proceed to the [Send a Request](#sending-a-request) section for further instructions.
 
 For a complete list of available environment variables, refer to the [vLLM Worker variables](/serverless/workers/vllm/environment-variables) documentation.
 

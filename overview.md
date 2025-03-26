@@ -21,20 +21,18 @@ Define a Worker, create a REST API Endpoint for it, queue jobs, and enjoy autosc
 ### Get started with:
 
 - [Building your own Worker image](workers/deploy/package-and-deploy-an-image.md)
-- [Using any LLM with the vLLM worker](workers/vllm-endpoint/get-started.md)
+- [Using any LLM with the vLLM worker](serverless/workers/vllm-endpoint/get-started.md)
 
 ## Our mission
 
 Submodel.ai aims to make cloud computing accessible and affordable for everyone, without compromising on features, usability, or experience. We empower individuals and enterprises with cutting-edge technology to unlock the potential of AI and cloud computing.
 
-For general inquiries, browse our documentation or reach out to us on [Discord](https://discord.com/invite/submodel), our support chat, or by [email](mailto:support@submodel.ai). More information is available on our [contact page](https://submodel.ai/contact).
+For general inquiries, browse our documentation or reach out to us on [Discord](https://discord.com/invite/UYn6rESDSC), [X](https://x.com/i/flow/login?redirect_after_login=%2FSubModelAI), [YouTube](https://www.youtube.com/@SubModelAI), [Telegram](https://t.me/SUBMODEL_Official),  or by [email](mailto:support@submodel.ai). More information is available on our [GitHub](https://discord.com/invite/UYn6rESDSC).
 
 ## Where to go next?
 
 Learn more about Submodel.ai by:
 
-- [Creating an account](https://submodel.ai/#/signup)
+- [Creating an account](Get%20started/Manage%20accounts.md)
 - [Adding funds to your account](Get%20started/Billing%20information.md)
 - [Running your first tutorial](Get%20started/Get%20started.md)
-
-Edit this page.

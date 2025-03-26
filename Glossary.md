@@ -11,7 +11,7 @@ We offer GPU and CPU Serverless options:
 A single compute resource that processes requests. Each endpoint can have multiple workers, enabling parallel processing of multiple requests simultaneously.
 
 ## Total Workers
-Refers to the maximum number of workers available to your account. The sum of the max workers assigned across all your endpoints cannot exceed this limit. If you run out of total workers, please reach out to us by creating a support ticket.
+Refers to the maximum number of workers available to your account. The sum of the max workers assigned across all your endpoints cannot exceed this limit. If you run out of total workers, please reach out to us by [creating a support ticket]().
 
 ## Max Workers
 Sets the upper limit on the number of workers your endpoint can run simultaneously.

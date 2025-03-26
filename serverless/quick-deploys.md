@@ -2,13 +2,13 @@
 
 Quick Deploys enables you to deploy custom endpoints for popular models with minimal configuration.
 
-You can explore [Quick Deploys](https://www.submodel.ai/console/serverless) and their descriptions in the web interface.
+You can explore [Quick Deploys](https://submodel.ai/#/serverless/list) and their descriptions in the web interface.
 
 ## Getting Started with Quick Deploys
 
 To begin using Quick Deploys, follow these steps:
 
-1. Navigate to the [Serverless section](https://www.submodel.ai/console/serverless) in the web interface.
+1. Navigate to the [Serverless section](https://submodel.ai/#/serverless/list) in the web interface.
 2. Choose your desired model.
 3. Assign a name to your endpoint.
 4. Select a GPU instance.
@@ -23,4 +23,4 @@ To tailor AI endpoints to your needs, visit the [SubModel GitHub repositories](h
 
 Start with the [worker-template](https://github.com/submodel/worker-template) and adjust it as required. These SubModel workers include CI/CD features to simplify your project setup.
 
-For comprehensive instructions on customizing your interaction endpoints, consult the [Handler Functions](/serverless/workers/handlers/overview) documentation.
+For comprehensive instructions on customizing your interaction endpoints, consult the [Handler Functions](/serverless/workers/handler-functions/overview) documentation.
