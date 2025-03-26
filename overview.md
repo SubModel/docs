@@ -20,14 +20,14 @@ Define a Worker, create a REST API Endpoint for it, queue jobs, and enjoy autosc
 
 ### Get started with:
 
-- [Building your own Worker image](workers/deploy/package-and-deploy-an-image.md)
+- [Building your own Worker image](serverless/workers/deploy/package-and-deploy-an-image.md)
 - [Using any LLM with the vLLM worker](serverless/workers/vllm-endpoint/get-started.md)
 
 ## Our mission
 
 Submodel.ai aims to make cloud computing accessible and affordable for everyone, without compromising on features, usability, or experience. We empower individuals and enterprises with cutting-edge technology to unlock the potential of AI and cloud computing.
 
-For general inquiries, browse our documentation or reach out to us on [Discord](https://discord.com/invite/UYn6rESDSC), [X](https://x.com/i/flow/login?redirect_after_login=%2FSubModelAI), [YouTube](https://www.youtube.com/@SubModelAI), [Telegram](https://t.me/SUBMODEL_Official),  or by [email](mailto:support@submodel.ai). More information is available on our [GitHub](https://discord.com/invite/UYn6rESDSC).
+For general inquiries, browse our documentation or reach out to us on [Discord](https://discord.com/invite/UYn6rESDSC), [X](https://x.com/i/flow/login?redirect_after_login=%2FSubModelAI), [YouTube](https://www.youtube.com/@SubModelAI), or by [Telegram](https://t.me/SUBMODEL_Official). More information is available on our [GitHub](https://discord.com/invite/UYn6rESDSC).
 
 ## Where to go next?
 

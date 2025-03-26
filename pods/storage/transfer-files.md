@@ -4,49 +4,10 @@ Learn to transfer files to and from SubModel.
 
 ## Prerequisites
 
-- If you intend to use `submodelctl`, make sure it's installed on your machine, see [install submodelctl](/submodelctl/install-submodelctl).
+
 - If you intend to use `scp`, make sure your Pod is configured to use real SSH. For more information, see [use SSH](/pods/configuration/use-ssh).
 - If you intend to use `rsync`, make sure it's installed on both your local machine and your Pod with `apt install rsync`.
 - Note the public IP address and external port from the SSH over exposed TCP command (you'll need these for the SCP/rsync commands).
-
-## Transferring with [submodelctl](/submodelctl/overview#data-transfer)
-
-The SubModel CLI (submodelctl) provides simple commands for transferring data between your machine and SubModel. **It’s preinstalled on all SubModel Pods** and uses one-time codes for secure authentication, so no API keys are required.
-
-### Sending a File
-
-To send a file from source machine:
-
-```bash
-submodelctl send data.txt
-```
-
-Example output:
-
-```bash
-Sending 'data.txt' (5 B)
-Code is: 8338-galileo-collect-fidel
-On the other computer run
-
-submodelctl receive 8338-galileo-collect-fidel
-```
-
-### Receiving a File
-
-To receive a file on destination machine:
-
-```bash
-submodelctl receive 8338-galileo-collect-fidel
-```
-
-Example output:
-
-```bash
-Receiving 'data.txt' (5 B)
-
-Receiving (<-149.36.0.243:8692)
-data.txt 100% |████████████████████| ( 5/ 5B, 0.040 kB/s)
-```
 
 ## Transferring with SCP
 

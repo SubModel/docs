@@ -1,6 +1,6 @@
 # Job Operations Guide
 
-This guide provides detailed instructions on performing job operations using the Runpod Endpoint. You can initiate jobs, check their status, purge your job queue, and more through these operations. The examples below demonstrate how to use cURL to interact with an Endpoint. Additionally, you can use the [Python SDK](/sdks/python/endpoints) for programmatic interaction.
+This guide provides detailed instructions on performing job operations using the Runpod Endpoint. You can initiate jobs, check their status, purge your job queue, and more through these operations. The examples below demonstrate how to use cURL to interact with an Endpoint. 
 
 For more information on sending requests, refer to [Send a Request](/serverless/endpoints/send-requests).
 

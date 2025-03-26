@@ -34,6 +34,6 @@ You can quickly launch a running Pod using a [template](/pods/templates/overview
 - Start Command
 - [Environment Variables](/pods/references/environment-variables)
 - [Exposing HTTP/TCP Ports](/pods/configuration/expose-ports)
-- [Persistent Storage Options](/category/storage)
+- [Persistent Storage Options](/pods/storage/storage_overview.md)
 
 To begin, see how to [Choose a Pod](/pods/choose-a-pod) and refer to the guide on [Managing Pods](/pods/manage-pods).

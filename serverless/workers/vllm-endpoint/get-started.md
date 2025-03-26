@@ -45,7 +45,7 @@ Deploying your model with the vLLM Worker requires minimal configuration. For mo
 
 Follow these steps to deploy the vLLM Worker on a Serverless Endpoint:
 
-1. Log in to the [SubModel Serverless console](https://www.submodel.ai/console/serverless).
+1. Log in to the [SubModel Serverless console](https://submodel.ai/#/serverless/list).
 2. Click **+ New Endpoint**.
 3. Provide the following details:
    - Endpoint name
@@ -63,7 +63,7 @@ Follow these steps to deploy the vLLM Worker on a Serverless Endpoint:
 
 Once the Endpoint initializes, you can start sending requests to your [Endpoint](/serverless/endpoints/get-started). Proceed to the [Send a Request](#sending-a-request) section for further instructions.
 
-For a complete list of available environment variables, refer to the [vLLM Worker variables](/serverless/workers/vllm/environment-variables) documentation.
+For a complete list of available environment variables, refer to the [vLLM Worker variables](/serverless/workers/vllm-endpoint/environment-variables) documentation.
 
 ## Sending a Request
 
@@ -233,4 +233,4 @@ If you encounter issues deploying or using vLLM Workers, check the following:
 - Verify that you are using the correct CUDA version for your selected GPU.
 - If using a gated model, ensure your Hugging Face token is valid and has access to the model.
 
-For more information on managing your Serverless Endpoints, refer to the [Manage Endpoints](/serverless/endpoints/manage-endpoints) guide. For a complete reference of the vLLM Worker environment variables, see the [vLLM Worker variables](/serverless/workers/vllm/environment-variables) documentation.
+For more information on managing your Serverless Endpoints, refer to the [Manage Endpoints](/serverless/endpoints/manage-endpoints) guide. For a complete reference of the vLLM Worker environment variables, see the [vLLM Worker variables](/serverless/workers/vllm-endpoint/environment-variables) documentation.

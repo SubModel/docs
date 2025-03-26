@@ -2,18 +2,6 @@
 
 Learn how to start, stop, and manage Pods using SubModel. This guide covers creating and terminating Pods, as well as using the Command Line (CLI) to manage your Pods effectively.
 
-## Prerequisites
-
-If you are using the [SubModel CLI](/submodelctl/install-submodelctl), you'll need to set your API key in the configuration.
-
-```bash
-submodelctl config --apiKey $SUBMODEL_API_KEY
-```
-
-Replace `$SUBMODEL_API_KEY` with your SubModel API key.
-
-Once your API key is configured, you can start managing your infrastructure.
-
 If you're unsure which Pod best suits your needs, refer to [Choose a Pod](/pods/choose-a-pod).
 
 ## Create Pods
