@@ -37,7 +37,7 @@ On the **Endpoint parameters** page, configure your deployment:
    - Adjust the **Container Disk** size if necessary.
 3. Click **Deploy**.
 
-Once the Endpoint initializes, you can start sending requests to your [Endpoint](/serverless/endpoints/get-started). Proceed to the [Send a Request](#sending-a-request) section for further instructions.
+Once the Endpoint initializes, you can start sending requests to your [Endpoint](/serverless/endpoints/get-started.md). Proceed to the [Send a Request](#sending-a-request) section for further instructions.
 
 ## Deploying via the Worker Image
 
