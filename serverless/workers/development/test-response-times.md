@@ -1,4 +1,4 @@
-```markdown
+
 # Testing API Response Time
 
 When configuring an API, you have multiple options available at various price points and resource allocations. You can choose a single option if you prefer to stick to one price point, or you can set a preference order among the pools to allocate your requests accordingly.

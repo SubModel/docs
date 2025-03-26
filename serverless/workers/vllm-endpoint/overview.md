@@ -31,12 +31,12 @@ At a high level, you can set up the vLLM Worker by:
 - Configuring any necessary environment variables
 - Deploying your model
 
-For detailed guidance on setting up, configuring, and deploying your vLLM Serverless Endpoint Worker, including compatibility details, environment variable settings, and usage examples, see [Get Started](/serverless/workers/vllm/get-started).
+For detailed guidance on setting up, configuring, and deploying your vLLM Serverless Endpoint Worker, including compatibility details, environment variable settings, and usage examples, see [Get Started](/serverless/workers/vllm-endpoint/get-started).
 
 ### Deployment Options
 
-- **[Configurable Endpoints](/serverless/workers/vllm/get-started#deploy-using-the-web-ui)**: (Recommended) Use SubModel's Web UI to quickly deploy the OpenAI-compatible LLM with the vLLM Worker.
-- **[Pre-Built Docker Image](/serverless/workers/vllm/get-started#deploy-using-the-worker-image)**: Leverage a pre-configured Docker image for hassle-free deployment. Ideal for users seeking a quick and straightforward setup process.
+- **[Configurable Endpoints](/serverless/workers/vllm-endpoint/get-started#deploy-using-the-web-ui)**: (Recommended) Use SubModel's Web UI to quickly deploy the OpenAI-compatible LLM with the vLLM Worker.
+- **[Pre-Built Docker Image](/serverless/workers/vllm-endpoint/get-started#deploy-using-the-worker-image)**: Leverage a pre-configured Docker image for hassle-free deployment. Ideal for users seeking a quick and straightforward setup process.
 - **Custom Docker Image**: For advanced users, customize and build your Docker image with the model baked in, offering greater control over the deployment process.
 
 For more information, see:
@@ -48,7 +48,7 @@ For more information on creating a custom Docker image, see [Build Docker Image 
 
 ## Next Steps
 
-- [Get Started](/serverless/workers/vllm/get-started): Learn how to deploy a vLLM Worker as a Serverless Endpoint, with detailed guides on configuration and sending requests.
-- [Configurable Endpoints](/serverless/workers/vllm/configurable-endpoints): Select your Hugging Face model and let vLLM handle the low-level details of model loading, hardware configuration, and execution.
-- [Environment Variables](/serverless/workers/vllm/environment-variables): Explore the environment variables available for the vLLM Worker, including detailed documentation and examples.
+- [Get Started](/serverless/workers/vllm-endpoint/get-started): Learn how to deploy a vLLM Worker as a Serverless Endpoint, with detailed guides on configuration and sending requests.
+- [Configurable Endpoints](/serverless/workers/vllm-endpoint/configurable-endpoints): Select your Hugging Face model and let vLLM handle the low-level details of model loading, hardware configuration, and execution.
+- [Environment Variables](/serverless/workers/vllm-endpoint/environment-variables): Explore the environment variables available for the vLLM Worker, including detailed documentation and examples.
 - [Run Gemma 7b](/tutorials/serverless/gpu/run-gemma-7b): Walk through deploying Google's Gemma model using SubModel's vLLM Worker, guiding you to set up a Serverless Endpoint with a gated large language model (LLM).

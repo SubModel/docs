@@ -37,3 +37,6 @@ The platform's settlement rules are real-time. Fees are deducted in real-time af
 
 - **Credit Settlement**: A settlement method based on points or balance calculation, with a value of 1:1 to USD.
 - **RMB Settlement**: If users need to settle in RMB, they can sign a settlement contract with us and make RMB transfers. The settlement cycle must be on a quarterly basis.
+
+**Business Cooperation Matchmaking Email**：
+📧 [business@submodel.ai](mailto:business@submodel.ai)
