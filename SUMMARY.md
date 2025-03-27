@@ -77,3 +77,5 @@
   * [Environment Variables](workers/vllm-endpoint/environment-variables.md)
   * [Get Started](workers/vllm-endpoint/get-started.md)
   * [OpenAI Compatibility](workers/vllm-endpoint/openai-compatibility.md)
+
+* [Contact Us](contact-us.md)
