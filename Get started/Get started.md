@@ -14,10 +14,7 @@ Before deploying resources, you'll need to add funds to your account. Submodel.a
 
 [Add funds here](https://submodel.ai/#/recharge).
 
-For more details on payment methods and billing, visit our [Billing Information](Billing%20information.md) page or check the [FAQ](../Hosting/FAQ).
-
+For more details on payment methods and billing, visit our [Billing Information](Billing%20information.md) page
 ## Running your resources
 
 Once your account is funded, you're ready to deploy computing resources. Follow this step-by-step guide to launch your first pod.
-
-![Image]

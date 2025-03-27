@@ -30,4 +30,3 @@ It will return a Delay Time and an Execution Time, both denoted in milliseconds.
 You can then switch to a different GPU pool and repeat the process.
 
 Ultimately, the best option for your use case will depend on how long you can afford to let the process run. For more demanding tasks, using a slower GPU may be more cost-effective, albeit with a tradeoff in speed. For simpler tasks, there may be diminishing returns on speed improvements that higher-end GPUs offer. Experiment to find the optimal balance for your scenario.
-```

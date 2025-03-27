@@ -104,7 +104,7 @@ Default: `4090` | `A4000` | `A4500`
 
 A100s are about 2-3x faster than A5000s and also allow double the VRAM with very high bandwidth throughout. 3090s and A5000s are 1.5-2x faster than A4000s. Sometimes, it may make more sense to use 24 GB even if you don't need it compared to 16 GB due to faster response times. Depending on the nature of the task, it's also possible that execution speeds may be bottlenecked and not significantly improved simply by using a higher-end card. Do your own calculations and experimentation to determine out what's most cost-effective for your workload and task type.
 
-Want access to different flavors? [Let us know](https://www.runpod.io/contact) and we can look at expanding our offerings!
+Want access to different flavors? [Let us know](../contact-us.md) and we can look at expanding our offerings!
 
 </details>
 
