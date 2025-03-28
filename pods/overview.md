@@ -27,9 +27,9 @@ To get started, check out how to [Choose a Pod](/pods/choose-a-pod), then follow
 
 ## Learn More
 
-You can quickly launch a running Pod using a [template](/pods/templates/overview). For further customization, you can configure the following settings:
+You can quickly launch a running Pod using a template. For further customization, you can configure the following settings:
 
-- [GPU Type](/references/gpu-types) and quantity
+- [GPU Type](/references/gpu-types.md) and quantity
 - System Disk Size
 - Start Command
 - [Environment Variables](/pods/references/environment-variables)
