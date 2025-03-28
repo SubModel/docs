@@ -6,7 +6,7 @@
 
 * [Get Started](Get%20started/Get%20started.md)
 * [Billing Information](Get%20started/Billing%20information.md)
-* [API keys](Get%20started/Manage%20accounts.md)
+* [API keys](Get%20started/API%20keys.md)
 
 ## Hosting
 
