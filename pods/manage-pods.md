@@ -2,11 +2,11 @@
 
 Learn how to start, stop, and manage Pods using SubModel. This guide covers creating and terminating Pods.
 
-If you're unsure which Pod best suits your needs, refer to [Choose a Pod](/pods/choose-a-pod).
+If you're unsure which Pod best suits your needs, refer to [Choose a Pod](/pods/choose-a-pod.md).
 
 ## Create Pods
 
-1. Navigate to [Pods](https://www.submodel.io/console/pods) and click **+ Deploy**.
+1. Navigate to [Pods](https://submodel.ai/#/inst/list) and click **+ Deploy**.
 2. Choose between **GPU** and **CPU**.
 3. Customize your instance by configuring the following:
    1. (Optional) Specify a Network volume.
