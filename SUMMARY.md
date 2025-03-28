@@ -76,4 +76,7 @@
     * [Get Started](serverless/workers/vllm-endpoint/get-started.md)
     * [OpenAI Compatibility](serverless/workers/vllm-endpoint/openai-compatibility.md)
 
+## References
+* [GPU Types](references/gpu-types.md)
+
 * [Contact Us](contact-us.md)
