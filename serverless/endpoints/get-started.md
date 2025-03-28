@@ -55,6 +55,3 @@ Now that you have successfully launched an endpoint using a template, you can:
 
 - [Invoke jobs](/serverless/endpoints/job-operations.md)
 
-If the provided models do not meet your needs, you can customize the Function Handler:
-
-- [Customize the Handler Function](/serverless/workers/handler-functions/overview.md)
