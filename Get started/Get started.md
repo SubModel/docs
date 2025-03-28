@@ -6,7 +6,7 @@ Welcome to Submodel.ai, a versatile cloud computing platform tailored for artifi
 
 Start by creating your own Submodel.ai account to manage and access various resources.
 
-[Sign up here](https://submodel.ai/#/signup) to create an account. Once registered, log in to start using our services.
+[Sign up here](https://submodel.ai/#/login?redirect=%2Fdashboard) to create an account. Once registered, log in to start using our services.
 
 ## Adding funds to your Account
 
