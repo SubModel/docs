@@ -205,4 +205,4 @@ SubModel's Endpoints facilitate submitting jobs and retrieving outputs. Access t
 
 > **Note:** Retrieve results from `/status` within 30 minutes for privacy protection.
 
-For reference information on Endpoints, see [Endpoint Operations](/serverless/references/operations).
+For reference information on Endpoints, see [Endpoint Operations](/serverless/references/operations.md).
