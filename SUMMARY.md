@@ -54,11 +54,11 @@
 
   * [vLLM Endpoint](serverless/workers/vllm-endpoint/overview.md)
     * [Overview](serverless/workers/vllm-endpoint/overview.md)
+    * [Get Started](serverless/workers/vllm-endpoint/get-started.md)
     * [Configurable Endpoints](serverless/workers/vllm-endpoint/configurable-endpoints.md)
     * [Environment Variables](serverless/workers/vllm-endpoint/environment-variables.md)
-    * [Get Started](serverless/workers/vllm-endpoint/get-started.md)
     * [OpenAI Compatibility](serverless/workers/vllm-endpoint/openai-compatibility.md)
 
 ## References
 * [GPU Types](references/gpu-types.md)
-* [Contact Us](contact-us.md)
+* [Contact Us](references/contact-us.md)
