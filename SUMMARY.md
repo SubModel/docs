@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome](overview.md)
 
 ## Getting Started
 
@@ -78,5 +78,5 @@
 
 ## References
 * [GPU Types](references/gpu-types.md)
-
+## Contact Us
 * [Contact Us](contact-us.md)
