@@ -26,15 +26,3 @@ It operates like a hard disk, enabling the storage of data that must be retained
 - Capacity can be tailored to meet storage needs
 - Ensures reliable data persistence, though read and write speeds may be slightly slower compared to container volumes
 
-## Network Storage
-
-Network storage is a storage type akin to a disk volume but with the added flexibility of being transferable between different machines.  
-It enables data storage and access across multiple Pods or instances.
-
-**Key Characteristics:**
-
-- Persistent storage that can be connected to various Pods or machines
-- Ideal for situations requiring data sharing or access by multiple Pods
-- Facilitates data portability and collaboration among different instances
-- Ensures data persistence and the ability to transfer storage between Pods
-- When utilizing network storage, only the Pod can be deleted, as the storage is managed independently

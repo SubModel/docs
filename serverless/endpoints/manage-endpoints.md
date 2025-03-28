@@ -46,17 +46,11 @@ If the preferred GPU is unavailable, the system will automatically switch to the
 3. Set the priority for the GPUs you prefer.
 4. Click **Update**.
 
-:::note
-To force a configuration update, set **Max Workers** to 0, click **Update**, then adjust your max workers back to the desired value.
-:::
 
-## Add a Network Volume
 
-Network volumes facilitate data sharing between Workers by mounting the same path on each Worker.
-This is particularly useful for scenarios like sharing a large-language model across all Workers.
+**To force a configuration update:**
 
-1. Navigate to [Serverless Endpoints](https://submodel.ai/#/serverless/list).
-2. Select the Endpoint you intend to edit.
-3. Click **Edit Endpoint** and make your adjustments.
-4. Under **Advanced**, select **Select Network Volume**.
-5. Choose the storage device and click **Update** to proceed.
+- Set **Max Workers** to `0`.
+- Click **Update**.
+- Adjust your **Max Workers** back to the desired value.
+

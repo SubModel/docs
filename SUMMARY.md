@@ -36,9 +36,7 @@
 ## Serverless
 
 * [Overview](serverless/overview.md)
-* [Deploying with GitHub](serverless/Deploying%20with%20GitHub.md)
 * [Get Started](serverless/get-started.md)
-* [Quick Deploys](serverless/quick-deploys.md)
 * [Endpoints](serverless/endpoints/overview.md)
   * [Overview](serverless/endpoints/overview.md)
   * [Get Started](serverless/endpoints/get-started.md)

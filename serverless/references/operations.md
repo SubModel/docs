@@ -2,7 +2,7 @@
 
 RunPod's Endpoints enable seamless job submission and output retrieval. Access these endpoints at: `https://api.submodel.ai/v2/{endpoint_id}/{operation}`
 
-## /run
+## run
 
 - **Method**: `POST`
 - **Description**: Asynchronous endpoint for submitting jobs
@@ -11,7 +11,7 @@ RunPod's Endpoints enable seamless job submission and output retrieval. Access t
 - **Rate Limit**: 1000 requests per 10 seconds, 200 concurrent
 - **Job Availability**: 30 minutes after completion
 
-## /runsync
+## runsync
 
 - **Method**: `POST`
 - **Description**: Synchronous endpoint for shorter running jobs

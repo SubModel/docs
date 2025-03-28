@@ -18,8 +18,9 @@ If you're unsure which Pod best suits your needs, refer to [Choose a Pod](/pods/
 
 ## Stop a Pod
 
-1. Click the stop icon next to the Pod you wish to stop.
-2. Confirm by clicking the **Stop Pod** button.
+1. Navigate to the **Pods** page.
+2. Click the **View** button on the right side of the Pod you want to control.
+3. Confirm by clicking the **Stop Pod** button.
 
 ### Stop a Pod After a Specific Time
 
@@ -54,11 +55,10 @@ The `nohup` command ensures the process continues running even if you close the 
 You can resume a Pod that has been stopped.
 
 1. Navigate to the **Pods** page.
-2. Select the Pod you want to resume.
-3. Click **Start**.
+2. Click the **View** button on the right side of the Pod you want to control.
+3. Click **Run**.
 
 Your Pod will resume operation.
-
 
 ## Terminate a Pod
 
@@ -66,7 +66,7 @@ Your Pod will resume operation.
 >
 > Terminating a Pod permanently deletes all data outside your [Network volume](/pods/storage/create-network-volumes). Ensure you've saved any data you want to access again.
 
-
-1. Click the hamburger menu at the bottom of the Pod you want to terminate.
-2. Select **Terminate Pod**.
-3. Confirm by clicking the **Yes** button.
+1. Navigate to the **Pods** page.
+2. Click the **View** button on the right side of the Pod you want to control.
+3. Select **More→Terminate**.
+4. Confirm by clicking the **Yes** button.

@@ -6,7 +6,7 @@ API keys authenticate requests to Submodel.ai. You can generate an API key with 
 
 To create an API key:
 
-1. From the console, select **Settings**.
+1. From the console, select **Account→Settings**.
 2. Under **API Keys**, choose **+ Create API Key**.
 3. Select the permission. If you choose Restricted permission, you can customize access for each API:
    - **None**: No access
@@ -26,7 +26,7 @@ To create an API key:
 
 To edit an API key:
 
-1. From the console, select **Settings**.
+1. From the console, select **Account→Settings**.
 2. Under **API Keys**, select the pencil icon and select the permission.
 3. Choose **Update**.
 
@@ -34,19 +34,19 @@ To edit an API key:
 
 To disable an API key:
 
-1. From the console, select **Settings**.
+1. From the console, select **Account→Settings**.
 2. Under **API Keys**, select the toggle and select **Yes**.
 
 ## Enable
 
 To enable an API key:
 
-1. From the console, select **Settings**.
+1. From the console, select **Account→Settings**.
 2. Under **API Keys**, select the toggle and select **Yes**.
 
 ## Revoke
 
 To delete an API key:
 
-1. From the console, select **Settings**.
+1. From the console, select **Account→Settings**.
 2. Under **API Keys**, select the trash can icon and select **Revoke Key**.

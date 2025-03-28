@@ -98,7 +98,3 @@ sending incremental file list
 sent 120 bytes  received 12 bytes  88.00 bytes/sec
 total size is 119  speedup is 0.90
 ```
-
-## Sync a volume to a cloud provider
-
-You can sync your volume to a cloud provider by clicking the **Cloud Sync** option under your **My Pods** page. For detailed instructions on connecting to AWS S3, Google Cloud Storage, Azure, Backblaze, Dropbox, and configuring these services, please refer to this [configuration guide](/pods/configuration/export-data).

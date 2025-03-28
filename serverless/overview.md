@@ -37,5 +37,3 @@ https://api.submodel.ai/v2/{endpoint_id}/{operation}
 - `endpoint_id`: The unique ID of your Serverless Endpoint.
 - `operation`: The operation to execute on the Serverless Endpoint.
   - Valid operations include: `run` | `runsync` | `status` | `cancel` | `health` | `purge-queue`
-
-For further details, refer to [Invoke jobs](/serverless/endpoints/job-operations).
