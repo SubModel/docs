@@ -36,4 +36,4 @@ https://api.submodel.ai/api/v1/sl/{inst_id}/{operation}
 - `v1`: The API version.
 - `inst_id`: The unique ID of your Serverless Instance.
 - `operation`: The operation to execute on the Serverless Endpoint.
-  - Valid operations include: `cancel` \| `health` \| `metrics` \| `_requests` \| `status` \| `run` \|`runsync`
+  - Valid operations include: <code>cancel</code> | <code>health</code> | <code>metrics</code> | <code>_requests</code> | <code>status</code> | <code>run</code> | <code>runsync</code>
