@@ -29,11 +29,11 @@ SubModel assigns an Endpoint Id for interacting with your Serverless Pod. Incorp
 The Endpoint URL format is as follows:
 
 ```
-https://api.submodel.ai/v2/{endpoint_id}/{operation}
+https://api.submodel.ai/api/v1/sl/{inst_id}/{operation}
 ```
 
 - `api.submodel.ai`: The base URL for accessing SubModel.
-- `v2`: The API version.
-- `endpoint_id`: The unique ID of your Serverless Endpoint.
+- `v1`: The API version.
+- `inst_id`: The unique ID of your Serverless Instance.
 - `operation`: The operation to execute on the Serverless Endpoint.
-  - Valid operations include: `run` | `runsync` | `status` | `cancel` | `health` | `purge-queue`
+  - Valid operations include: `cancel` | `health` | `metrics` | `_requests` | `status` | `run` |`runsync`
