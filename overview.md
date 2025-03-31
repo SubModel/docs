@@ -27,7 +27,7 @@ Define a Worker, create a REST API Endpoint for it, queue jobs, and enjoy autosc
 
 Submodel.ai aims to make cloud computing accessible and affordable for everyone, without compromising on features, usability, or experience. We empower individuals and enterprises with cutting-edge technology to unlock the potential of AI and cloud computing.
 
-For general inquiries, browse our documentation or reach out to us on. More information is available on our [GitHub](https://discord.com/invite/UYn6rESDSC).
+For general inquiries, browse our documentation or reach out to us on. More information is available on our [GitHub](https://github.com/SubModel).
 
 ## Where to go next?
 

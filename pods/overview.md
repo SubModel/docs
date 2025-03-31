@@ -14,16 +14,17 @@ A Pod consists of several key components:
   - This storage is volatile and will be lost if the Pod is halted or rebooted.
 - **Disk Volume:** Provides persistent storage, similar to a hard disk, retained for the duration of the Pod's lease.
   - This storage remains intact even if the Pod is halted or rebooted.
-- **Network Storage:** Functions like a volume but can be moved between machines.
+<!--- **Network Storage:** Functions like a volume but can be moved between machines.
   - When using network storage, the Pod can only be deleted.
+-->
 - **Ubuntu Linux Container:** Runs almost any software compatible with Ubuntu.
 - **Assigned vCPU and System RAM:** Dedicated resources for the container and its processes.
-- **Optional GPUs or Additional CPUs:** Available for specific workloads such as CUDA or AI/ML tasks, though not mandatory.
+- **Optional GPUs** Available for specific workloads such as CUDA or AI/ML tasks.
 - **Pre-configured Template:** Automates software installation and settings upon Pod creation, enabling quick access to various packages.
 - **Proxy Connection for Web Access:** Facilitates connectivity to any open port on the container.
   - Example: `https://[pod-id]-[port number].proxy.submodel.ai`, such as `https://2s56cp0pof1rmt-7860.proxy.submodel.ai/`.
 
-To get started, check out how to [Choose a Pod](/pods/choose-a-pod), then follow the guide on [Managing Pods](/pods/manage-pods).
+To get started, check out how to [Choose a Pod](/pods/choose-a-pod.md), then follow the guide on [Managing Pods](/pods/manage-pods.md).
 
 ## Learn More
 
@@ -32,8 +33,8 @@ You can quickly launch a running Pod using a template. For further customization
 - [GPU Type](/references/gpu-types.md) and quantity
 - System Disk Size
 - Start Command
-- [Environment Variables](/pods/references/environment-variables)
-- [Exposing HTTP/TCP Ports](/pods/configuration/expose-ports)
+- [Environment Variables](/pods/references/environment-variables.md)
+- [Exposing HTTP/TCP Ports](/pods/configuration/expose-ports.md)
 - [Persistent Storage Options](/pods/storage/types.md)
 
-To begin, see how to [Choose a Pod](/pods/choose-a-pod) and refer to the guide on [Managing Pods](/pods/manage-pods).
+To begin, see how to [Choose a Pod](/pods/choose-a-pod.md) and refer to the guide on [Managing Pods](/pods/manage-pods.md).
