@@ -28,8 +28,7 @@
 * [References](pods/references/environment-variables.md)
   * [Environment Variables](pods/references/environment-variables.md)
 * [Storage](pods/storage/create-network-volumes.md)
-  * [Create Network Volumes](pods/storage/create-network-volumes.md)
-  * [Sync Volumes](pods/storage/sync-volumes.md)
+
   * [Transfer Files](pods/storage/transfer-files.md)
   * [Types](pods/storage/types.md)
 

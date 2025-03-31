@@ -9,4 +9,4 @@ To access your logs:
 1. Click **Account** in the left console.
 2. click **Event Logs**.
 
-This will display both container and system logs, helping you monitor and debug your Pod's performance effectively.
+This interface provides comprehensive logs for both container activities and system events, enabling you to effectively monitor and troubleshoot your Pod's performance.
