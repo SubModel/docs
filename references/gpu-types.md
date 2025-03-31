@@ -1,5 +1,5 @@
 # GPU types
-The following list contains all GPU types available on RunPod.
+The following list contains all GPU types available on SubModel.
 
 For more information, see For more information, see [GPU Pods pricing](https://submodel.ai/#/plan/pod) and [Serverless pricing](https://submodel.ai/#/plan/serverless).
 

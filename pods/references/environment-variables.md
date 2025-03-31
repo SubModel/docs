@@ -5,7 +5,7 @@ You can store the following environment variables in your Pods.
 | Variable               | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
 | `SUBMODEL_POD_ID`         | The unique identifier for your pod.                                         |
-| `SUBMODEL_API_KEY`        | Used to make RunPod API calls to the specific pod. It's limited in scope to only the pod. |
+| `SUBMODEL_API_KEY`        | Used to make SubModel API calls to the specific pod. It's limited in scope to only the pod. |
 | `SUBMODEL_POD_HOSTNAME`   | Name of the host server the pod is running on.                              |
 | `SUBMODEL_GPU_COUNT`      | Number of GPUs available to the pod.                                        |
 | `SUBMODEL_CPU_COUNT`      | Number of CPUs available to the pod.                                        |

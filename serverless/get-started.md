@@ -134,4 +134,4 @@ This step will guide you through deploying a Serverless Endpoint to SubModel. Yo
    7. Specify enough memory for your Docker image.
 4. Select **Deploy**.
 
-Now, let's send a request to your [Endpoint](/serverless/endpoints/get-started).
+Now, let's send a request to your [Endpoint](/serverless/endpoints/get-started.md).

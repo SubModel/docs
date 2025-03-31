@@ -3,10 +3,10 @@
 Once you have a Handler Function, the next step is to package it into a Docker image that can be deployed as a scalable Serverless Worker. This is accomplished by defining a Dockerfile to import everything required to run your handler. Example Dockerfiles can be found in the [submodel](https://github.com/orgs/submodel/repositories) repository on GitHub.
 
 > **Note**  
-> For deploying large language models (LLMs), you can use the [Configurable Endpoints](/serverless/workers/vllm/configurable-endpoints) feature instead of working directly with Docker.  
+> For deploying large language models (LLMs), you can use the [Configurable Endpoints](/serverless/workers/vllm/configurable-endpoints.md) feature instead of working directly with Docker.  
 > Configurable Endpoints simplify the deployment process by allowing you to select a pre-configured template and customize it according to your needs.
 
-*Unfamiliar with Docker? Check out Docker's [overview page](https://docs.docker.com/get-started/overview/) or see our guide on [Containers](/category/containers).*
+*Unfamiliar with Docker? Check out Docker's [overview page](https://docs.docker.com/get-started/overview/).*
 
 ## Dockerfile
 
@@ -36,7 +36,7 @@ ADD handler.py .
 CMD [ "python", "-u", "/handler.py" ]
 ```
 
-To build and push the image, review the steps in [Get started](/serverless/workers/overview).
+To build and push the image, review the steps in [Get started](/serverless/workers/overview.md).
 
 > 🚧 If your handler requires external files such as model weights, be sure to cache them into your Docker image. You are striving for a completely self-contained worker that doesn't need to download or fetch external files to run.
 
@@ -44,7 +44,7 @@ To build and push the image, review the steps in [Get started](/serverless/worke
 
 Integrate your Handler Functions through continuous integration.
 
-The [Test Runner](https://github.com/SubModel/test-runner) GitHub Action is used to test and integrate your Handler Functions into your applications.
+The [Test Runner](https://github.com/submodel-workers/test-runner) GitHub Action is used to test and integrate your Handler Functions into your applications.
 
 > **Note**  
 > Running any Action that sends requests to SubModel incurs a cost.
