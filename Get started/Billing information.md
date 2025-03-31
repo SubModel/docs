@@ -10,6 +10,6 @@ For more information on billing questions, see [Billing FAQ](../references/Billi
 
 - **Crypto Payments**: Submodel.ai accepts crypto payments, allowing you to fund your account using popular cryptocurrencies.
 
-- **Business Invoicing**: For large transactions, Submodel.ai supports business invoicing through local and international wire transfers. For more details, please [contact us](../contact-us.md).
+- **Business Invoicing**: For large transactions, Submodel.ai supports business invoicing through local and international wire transfers. For more details, please [contact us](/references/contact-us.md).
 
-If you're having trouble with your card payments, you can [contact us](../contact-us.md) for assistance.
+If you're having trouble with your card payments, you can [contact us](/references/contact-us.md) for assistance.
