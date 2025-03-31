@@ -11,7 +11,7 @@ The name is only visible to you.
 
 ## GPU Selection
 
-Select one or more GPUs that you want your Endpoint to run on. RunPod matches you with GPUs in the order that you select them, so the first GPU type that you select is prioritized, then the second, and so on. Selecting multiple GPU types can help you get a worker more quickly, especially if your first selection is an in-demand GPU.
+Select one or more GPUs that you want your Endpoint to run on. SubModel matches you with GPUs in the order that you select them, so the first GPU type that you select is prioritized, then the second, and so on. Selecting multiple GPU types can help you get a worker more quickly, especially if your first selection is an in-demand GPU.
 
 ## Active (Min) Workers
 
@@ -25,14 +25,14 @@ Default: 0
 
 ## Max Workers
 
-Max workers set a limit on the number of workers your endpoint can run simultaneously. If the max workers are set too low, you might experience [throttled workers](/glossary#throttled-worker). To prevent this, consider increasing the max workers to 5 or more if you see frequent throttling.
+Max workers set a limit on the number of workers your endpoint can run simultaneously. If the max workers are set too low, you might experience throttled workers. To prevent this, consider increasing the max workers to 5 or more if you see frequent throttling.
 
 Default: 3
 
 <details>
 <summary>How to configure Max Workers</summary>
 
-You can also configure a max worker count. This is the top limit of what RunPod will attempt to auto-scale for you. Use this to cap your concurrent request count and also limit your cost ceiling.
+You can also configure a max worker count. This is the top limit of what SubModel will attempt to auto-scale for you. Use this to cap your concurrent request count and also limit your cost ceiling.
 
 > **note**
 >
@@ -61,7 +61,7 @@ Default: 5 seconds
 
 ## FlashBoot
 
-FlashBoot is RunPod’s magic solution for reducing the average cold-start times on your endpoint. It works probabilistically. When your endpoint has consistent traffic, your workers have a higher chance of benefiting from FlashBoot for faster spin-ups. However, if your endpoint isn’t receiving frequent requests, FlashBoot has fewer opportunities to optimize performance. There’s no additional cost associated with FlashBoot.
+FlashBoot is SubModel’s magic solution for reducing the average cold-start times on your endpoint. It works probabilistically. When your endpoint has consistent traffic, your workers have a higher chance of benefiting from FlashBoot for faster spin-ups. However, if your endpoint isn’t receiving frequent requests, FlashBoot has fewer opportunities to optimize performance. There’s no additional cost associated with FlashBoot.
 
 ## Advanced
 
@@ -72,18 +72,6 @@ Additional controls to help you control where your endpoint is deployed and how 
 Control which data centers can deploy and cache your workers. Allowing multiple data centers can help you get a worker more quickly.
 
 Default: all data centers
-
-### Select Network Volume
-
-Attach a network storage volume to your deployed workers.
-
-Network volumes will be mounted to `/runpod-volume/`.
-
-> **note**
->
-> While this is a high performance network drive, do keep in mind that it will have higher latency than a local drive.
->
-> This will limit the availability of cards, as your endpoint workers will be locked to the datacenter that houses your network volume.
 
 ### Scale Type
 
@@ -104,7 +92,7 @@ Default: `4090` | `A4000` | `A4500`
 
 A100s are about 2-3x faster than A5000s and also allow double the VRAM with very high bandwidth throughout. 3090s and A5000s are 1.5-2x faster than A4000s. Sometimes, it may make more sense to use 24 GB even if you don't need it compared to 16 GB due to faster response times. Depending on the nature of the task, it's also possible that execution speeds may be bottlenecked and not significantly improved simply by using a higher-end card. Do your own calculations and experimentation to determine out what's most cost-effective for your workload and task type.
 
-Want access to different flavors? [Let us know](https://www.runpod.io/contact) and we can look at expanding our offerings!
+Want access to different flavors? [Let us know](/references/contact-us.md) and we can look at expanding our offerings!
 
 </details>
 
@@ -116,7 +104,7 @@ The CUDA version selection determines the compatible GPU types that will be used
 Specifically, the CUDA version selection works as follows:
 
 - You can choose one or more CUDA versions that your workload is compatible with or requires.
-- RunPod will then match your workload to available GPU instances that have the selected CUDA versions installed.
+- SubModel will then match your workload to available GPU instances that have the selected CUDA versions installed.
 - This ensures that your serverless tasks run on GPU hardware that meets the CUDA version requirements.
 
 For example, if you select CUDA 11.6, your serverless tasks will be scheduled to run on GPU instances that have CUDA 11.6 or a compatible version installed. This allows you to target specific CUDA versions based on your workload's dependencies or performance requirements.

@@ -1,8 +1,8 @@
 # Job Operations Guide
 
-This guide provides detailed instructions on performing job operations using the Runpod Endpoint. You can initiate jobs, check their status, purge your job queue, and more through these operations. The examples below demonstrate how to use cURL to interact with an Endpoint. 
+This guide provides detailed instructions on performing job operations using the SubModel Endpoint. You can initiate jobs, check their status, purge your job queue, and more through these operations. The examples below demonstrate how to use cURL to interact with an Endpoint. 
 
-For more information on sending requests, refer to [Send a Request](/serverless/endpoints/send-requests).
+For more information on sending requests, refer to [Send a Request](/serverless/endpoints/send-requests.md).
 
 ## Asynchronous Endpoints
 

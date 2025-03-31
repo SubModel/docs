@@ -1,6 +1,6 @@
 # Endpoint Operations
 
-RunPod's Endpoints enable seamless job submission and output retrieval. Access these endpoints at: `https://api.submodel.ai/v2/{endpoint_id}/{operation}`
+SubModel's Endpoints enable seamless job submission and output retrieval. Access these endpoints at: `https://api.submodel.ai/api/v1/sl/{inst_id}/{operation}`
 
 ## run
 
@@ -11,6 +11,19 @@ RunPod's Endpoints enable seamless job submission and output retrieval. Access t
 - **Rate Limit**: 1000 requests per 10 seconds, 200 concurrent
 - **Job Availability**: 30 minutes after completion
 
+### Example Request
+
+**URL**: `https://api.submodel.ai/api/v1/sl/:inst_id/run`
+
+**Request Body**:
+```json
+{
+    "input": {
+        "prompt": "Your prompt"
+    }
+}
+```
+
 ## runsync
 
 - **Method**: `POST`
@@ -19,6 +32,19 @@ RunPod's Endpoints enable seamless job submission and output retrieval. Access t
 - **Payload Limit**: 20 MB
 - **Rate Limit**: 2000 requests per 10 seconds, 400 concurrent
 - **Job Availability**: 60 seconds after completion
+
+### Example Request
+
+**URL**: `https://api.submodel.ai/api/v1/sl/:inst_id/runsync`
+
+**Request Body**:
+```json
+{
+    "input": {
+        "prompt": "Your prompt"
+    }
+}
+```
 
 ## Queue Limits
 
@@ -31,26 +57,42 @@ RunPod's Endpoints enable seamless job submission and output retrieval. Access t
 All status and stream operations share a rate limit of 2000 requests per 10 seconds, 400 concurrent:
 
 - `/status/{job_id}` - Check job status and retrieve outputs
-  - Methods: `GET` | `POST`
+  - **Methods**: `GET` | `POST`
+  - **URL**: `https://api.submodel.ai/api/v1/sl/:inst_id/status/:job_id`
+
 - `/status-sync/{job_id}` - Synchronous status check
-  - Methods: `GET` | `POST`
+  - **Methods**: `GET` | `POST`
+
 - `/stream/{job_id}` - Stream results from generator-type handlers
-  - Methods: `GET` | `POST`
+  - **Methods**: `GET` | `POST`
 
 ## Additional Operations
 
 - `/cancel/{job_id}`
   - **Method**: `POST`
+  - **Description**: Cancel a job prematurely
   - **Rate Limit**: 100 requests per 10 seconds, 20 concurrent
+  - **URL**: `https://api.submodel.ai/api/v1/sl/:inst_id/cancel/:job_id`
+
 - `/purge-queue`
   - **Method**: `POST`
   - **Description**: Clears all queued jobs (does not affect running jobs)
   - **Rate Limit**: 2 requests per 10 seconds
+
 - `/health`
   - **Method**: `GET`
   - **Description**: Provides worker statistics and endpoint health
+  - **URL**: `https://api.submodel.ai/api/v1/sl/:inst_id/health`
+
+- `/metrics`
+  - **Method**: `GET`
+  - **Description**: Retrieve endpoint metrics
+  - **URL**: `https://api.submodel.ai/api/v1/sl/:inst_id/metrics`
+
 - `/requests`
   - **Method**: `GET`
+  - **Description**: Retrieve request logs
   - **Rate Limit**: 10 requests per 10 seconds, 2 concurrent
+  - **URL**: `https://api.submodel.ai/api/v1/sl/:inst_id/_requests`
 
-For detailed instructions on how to execute these Endpoint Operations, refer to [Invoke a Job](/serverless/endpoints/job-operations).
+For detailed instructions on how to execute these Endpoint Operations, refer to [Invoke a Job](/serverless/endpoints/job-operations.md).

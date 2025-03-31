@@ -30,12 +30,12 @@ Sets the upper limit on the number of workers your endpoint can run simultaneous
 **Default**: Max Workers(3) - Active Workers(0) = 3
 
 ## Extra Workers
-RunPod caches your worker's Docker image on our host servers, ensuring faster scalability. If you experience a traffic spike, you can increase the max number of workers, and extra workers will be immediately added as part of the flex workers to handle the increased demand.
+SubModel caches your worker's Docker image on our host servers, ensuring faster scalability. If you experience a traffic spike, you can increase the max number of workers, and extra workers will be immediately added as part of the flex workers to handle the increased demand.
 
 **Default**: 2
 
 ## Worker States
-- **Initializing**: When you create a new endpoint or release an update, RunPod needs to download and prepare the Docker image for your workers. During this process, workers remain in an initializing state until they are fully ready to handle requests.
+- **Initializing**: When you create a new endpoint or release an update, SubModel needs to download and prepare the Docker image for your workers. During this process, workers remain in an initializing state until they are fully ready to handle requests.
 - **Idle**: A worker is ready to handle new requests but is not actively processing any. There is no charge while a worker is idle.
 - **Running**: A running worker is actively processing requests, and you are billed every second it runs. If a worker runs for less than a full second, it will be rounded up to the next whole second. For example, if a worker runs for 2.5 seconds, you will be billed for 3 seconds.
 - **Throttled**: Sometimes, the machine where the worker is cached may be fully occupied by other workloads. In this case, the worker will show as throttled until resources become available.
@@ -43,7 +43,7 @@ RunPod caches your worker's Docker image on our host servers, ensuring faster sc
 - **Unhealthy**: When your container crashes, it’s usually due to a bad Docker image, an incorrect start command, or occasionally a machine issue. The system will automatically retry the unhealthy worker.
 
 ## Endpoint
-Refers to a specific REST API (URL) provided by RunPod that your applications or services can interact with.
+Refers to a specific REST API (URL) provided by SubModel that your applications or services can interact with.
 
 ## Handler
 A function you create that takes in submitted inputs, processes them (like generating images, text, or audio), and returns the final output.
@@ -60,7 +60,7 @@ A Python package used when creating a handler function. This package helps your 
   **Default**: 86,400,000 milliseconds (24 hours)
 
 ## Flashboot
-RunPod’s solution for reducing the average cold-start times on your endpoint.
+SubModel’s solution for reducing the average cold-start times on your endpoint.
 
 ## Scale Type
 - **Queue Delay**: Adjusts worker numbers based on request wait times.
@@ -82,13 +82,13 @@ Allows direct communication with your worker using its public IP and port, usefu
 - **Community Cloud**: GPU instances connecting individual compute providers to consumers through a secure peer-to-peer system.
 
 ## Datacenter
-A secure location where RunPod's cloud computing services, such as Secure Cloud and GPU Instances, are hosted.
+A secure location where SubModel's cloud computing services, such as Secure Cloud and GPU Instances, are hosted.
 
 ## GPU Instance
 A container-based GPU instance that you can deploy within seconds.
 
 ## Template
-A RunPod template is a Docker container image paired with a configuration.
+A SubModel template is a Docker container image paired with a configuration.
 
 ## SDKs
-RunPod provides several SDKs to interact with the RunPod platform.
+SubModel provides several SDKs to interact with the SubModel platform.
