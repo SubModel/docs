@@ -21,7 +21,6 @@ Developers no longer manage the server; the cloud platform automatically allocat
 ### Bare-Metal
 Users exclusively occupy all resources of physical servers, experiencing zero virtualization performance loss while meeting ultra-low latency and hardware-level control needs
 
-
 ## Billing
 All billing, including per-hour compute and storage billing, is charged per minute.
 
