@@ -18,7 +18,7 @@ The basic terminal SSH access provided by SubModel is not a full SSH connection 
 
    ![SSH Key Generation](/assets/images/4655a01-1-6b0dd022d29cebe257e9e5df21a52fb4.png)
 
-2. **Add Public Key to SubModel**: Log in to your [SubModel user settings](https://www.SubModel.io/console/user/settings) and add your public key.
+2. **Add Public Key to SubModel**: Log in to your [SubModel user settings](https://submodel.ai/#/account/others) and add your public key.
 
    ![SubModel User Settings](/assets/images/4972691-2-8c4764cae5d826dd756d264474f818d5.png)
 

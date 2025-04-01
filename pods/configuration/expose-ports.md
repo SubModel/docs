@@ -12,7 +12,7 @@ This command means uvicorn will listen on all interfaces on port 4000. Now, let'
 
 ## Through SubModel's Proxy
 
-In this scenario, ensure the port you wish to expose (4000 in this case) is set in the [Template](https://www.SubModel.io/console/user/templates) or [Pod](https://www.SubModel.io/console/pods) configuration page. Here, I have added 4000 to the HTTP port list in my pod config. This can also be done in your template definition.
+In this scenario, ensure the port you wish to expose (4000 in this case) is set in the Template or Pod configuration page. Here, I have added 4000 to the HTTP port list in my pod config. This can also be done in your template definition.
 
 ![Image](/assets/images/1386a3c-image-00ce91cf90cd62e743f1382d8d722b0a.png)
 
