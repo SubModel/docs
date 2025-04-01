@@ -2,7 +2,7 @@
 
 All billing, including per-hour compute and storage billing, is charged per minute.
 
-For more information on billing questions, see [Billing FAQ](../references/Billing%20FAQ.md).
+For more information on billing questions, see [Billing FAQ](/references/FAQ.md##billing).
 
 ## Payment Methods
 

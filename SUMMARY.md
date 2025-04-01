@@ -21,14 +21,13 @@
 * [Manage Pods](pods/manage-pods.md)
 * [Logs](pods/logs.md)
 * [Configuration](pods/configuration/export-data.md)
-  * [Export Data](pods/configuration/export-data.md)
+  * [Setting](pods/configuration/Setting.md)
   * [Expose Ports](pods/configuration/expose-ports.md)
   * [Override Public Keys](pods/configuration/override-public-keys.md)
   * [Use SSH](pods/configuration/use-ssh.md)
 * [References](pods/references/environment-variables.md)
   * [Environment Variables](pods/references/environment-variables.md)
 * [Storage](pods/storage/create-network-volumes.md)
-
   * [Transfer Files](pods/storage/transfer-files.md)
   * [Types](pods/storage/types.md)
 
@@ -59,5 +58,7 @@
     * [OpenAI Compatibility](serverless/workers/vllm-endpoint/openai-compatibility.md)
 
 ## References
+* [FAQ](references/FAQ.md)
 * [GPU Types](references/gpu-types.md)
 * [Contact Us](references/contact-us.md)
+

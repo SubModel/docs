@@ -16,8 +16,7 @@ It is generated upon Pod launch and is closely tied to the Pod's lifecycle.
 
 ## Disk Volume
 
-A disk volume is a form of persistent storage that is maintained throughout the Pod's lease period.  
-It operates like a hard disk, enabling the storage of data that must be retained even if the Pod is stopped or restarted.
+A disk volume is a form of persistent storage that is maintained throughout the Pod’s lease period. It operates like a hard disk, enabling the storage of data that must be retained even if the Pod is stopped or restarted. The disk volume is mounted at **/workspace**.
 
 **Key Characteristics:**
 

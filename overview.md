@@ -2,21 +2,23 @@
 
 Submodel.ai is a cloud computing platform tailored for AI, machine learning applications, and general computing needs.
 
+Experience enterprise-grade cloud computing at jaw-dropping prices - our solutions deliver comparable performance to RunPod at just 20% of their cost.
+
 Utilize our platform to execute your code using both GPU and CPU resources through our [Pods](pods/overview.md) and [Serverless](serverless/overview.md) computing options.
 
 Start today by [signing up for an account](https://submodel.ai/#/login?redirect=%2Fdashboard).
 
 ## What are Pods?
 
-Pods enable you to run your code on GPU and CPU instances using containers.
+Pods enable you to run your code on GPU instances using containers.
 
-Pods are available in two types: Secure Cloud and Community Cloud. Secure Cloud operates in T3/T4 data centers, ensuring high reliability and security. Community Cloud connects individual compute providers to consumers through a vetted, secure peer-to-peer system.
+Our GPUs are hosted exclusively in T3/T4 certified data centers, guaranteeing enterprise-grade reliability and security infrastructure. 
 
 ## What is Serverless?
 
 Serverless provides pay-per-second serverless computing with autoscaling capabilities for your production environment.
 
-Define a Worker, create a REST API Endpoint for it, queue jobs, and enjoy autoscaling to meet demand. This service, part of our Secure Cloud offering, ensures low cold-start times and robust security measures.
+Define a Worker, create a REST API Endpoint for it, queue jobs, and enjoy autoscaling to meet demand. This service ensures low cold-start times and robust security measures.
 
 ### Get started with:
 
@@ -36,3 +38,4 @@ Learn more about Submodel.ai by:
 - [Creating an account](https://submodel.ai/#/login?redirect=%2Finst%2Flist)
 - [Adding funds to your account](Get%20started/Billing%20information.md)
 - [Running your first tutorial](Get%20started/Get%20started.md)
+- [Our products and prices](https://submodel-gpu-cloud-gkztjf0.gamma.site/)

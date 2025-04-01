@@ -82,7 +82,7 @@ Allows direct communication with your worker using its public IP and port, usefu
 - **Community Cloud**: GPU instances connecting individual compute providers to consumers through a secure peer-to-peer system.
 
 ## Datacenter
-A secure location where SubModel's cloud computing services, such as Secure Cloud and GPU Instances, are hosted.
+A secure location where SubModel's cloud computing services, such as GPU Instances, are hosted.
 
 ## GPU Instance
 A container-based GPU instance that you can deploy within seconds.
@@ -90,5 +90,3 @@ A container-based GPU instance that you can deploy within seconds.
 ## Template
 A SubModel template is a Docker container image paired with a configuration.
 
-## SDKs
-SubModel provides several SDKs to interact with the SubModel platform.

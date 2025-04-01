@@ -1,4 +1,4 @@
-## FAQ
+## Hosting FAQ
 
 ### 1. Q: How is cloud service compliance ensured?
 A: We provide a cloud platform service model with a compute resource pool offering hybrid cloud services. Customer isolation and sensitive operation restrictions are implemented.
