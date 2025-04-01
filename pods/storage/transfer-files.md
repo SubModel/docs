@@ -5,7 +5,7 @@ Learn to transfer files to and from SubModel.
 ## Prerequisites
 
 
-- If you intend to use `scp`, make sure your Pod is configured to use real SSH. For more information, see [use SSH](/pods/configuration/use-ssh).
+- If you intend to use `scp`, make sure your Pod is configured to use real SSH. For more information, see [use SSH](/pods/configuration/use-ssh.md).
 - If you intend to use `rsync`, make sure it's installed on both your local machine and your Pod with `apt install rsync`.
 - Note the public IP address and external port from the SSH over exposed TCP command (you'll need these for the SCP/rsync commands).
 

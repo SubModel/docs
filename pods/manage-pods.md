@@ -64,7 +64,7 @@ Your Pod will resume operation.
 
 > **Danger**
 >
-> Terminating a Pod permanently deletes all data outside your [Network volume](/pods/storage/create-network-volumes). Ensure you've saved any data you want to access again.
+> Terminating a Pod permanently deletes all data. Ensure you've saved any data you want to access again.
 
 1. Navigate to the **Pods** page.
 2. Click the **View** button on the right side of the Pod you want to control.
