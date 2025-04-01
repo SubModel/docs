@@ -14,7 +14,6 @@ SubModel Serverless instances stand out for several compelling reasons:
 
 - **AI Inference**: Capable of handling millions of inference requests daily, with scalability to billions, making it an optimal solution for machine learning inference tasks. This ensures cost-effective scaling for your machine learning inference needs.
 - **AI Training**: Efficiently manage machine learning training tasks that can last up to 12 hours. GPUs are provisioned on-demand and scaled down post-task completion, offering a flexible and efficient training environment.
-- **Autoscale**: Experience dynamic scaling from 0 to 100 workers on our Secure Cloud platform, which is globally distributed and highly available, ensuring you have the computational resources precisely when needed.
 - **Container Support**: Deploy any Docker container to SubModel. Support for both public and private image repositories allows for complete environment customization.
 - **3s Cold-Start**: SubModel proactively pre-warms workers to minimize cold-start times. While start times vary by runtime, for instance, stable diffusion experiences a 3-second cold-start plus a 5-second runtime.
 - **Metrics and Debugging**: Gain transparency into your computational workloads with access to GPU, CPU, Memory, and other metrics. Comprehensive debugging capabilities, including logs, SSH access, and a web terminal, simplify troubleshooting.
