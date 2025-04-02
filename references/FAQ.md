@@ -4,10 +4,10 @@
 Submodel leverages technologies like [Docker](https://www.docker.com/) to containerize and isolate guest workloads on a host machine. We have built a decentralized platform where thousands of servers can be connected to offer a seamless experience for all users.
 
 ## Where can I go for help?
-We'd be happy to help! Join our community on [Discord](https://discord.com/invite/UYn6rESDSC), message us in our support chat, or email us at business@submodel.ai.
+We'd be happy to help! Join our community on [Discord](https://discord.com/invite/UYn6rESDSC), message us in our support chat, or email us at admin@submodel.ai.
 
 ## What is Submodel's policy on refunds and credits?
-If you aren't sure if Submodel is for you, feel free to hang out in our [Discord](https://discord.com/invite/UYn6rESDSC) to ask questions or email business@submodel.ai You can load as little as $10 into your account to try things out. We don't currently offer refunds or trial credits due to the overhead of processing these requests. Please plan accordingly!
+If you aren't sure if Submodel is for you, feel free to hang out in our [Discord](https://discord.com/invite/UYn6rESDSC) to ask questions or email admin@submodel.ai You can load as little as $10 into your account to try things out. We don't currently offer refunds or trial credits due to the overhead of processing these requests. Please plan accordingly!
 
 ## What are our products?
 View detailed information about our products and services here.[ [English](https://submodel-gpu-cloud-gkztjf0.gamma.site/) | [中文](https://submode-gpu-cloud-j3p6gm5.gamma.site/) ]
@@ -45,7 +45,7 @@ No, Submodel does not offer the option to withdraw your unused balance after dep
 > **IMPORTANT**
 When depositing funds into your Submodel account, please be aware that you cannot withdraw your balance once it has been added. Only deposit the amount you intend to use for Submodel services.
 
-We recommend carefully considering the amount you wish to deposit based on your expected usage of our services. If you have any questions about billing or need assistance in planning your Submodel expenses, please don't hesitate to contact our support team at business@submodel.ai.
+We recommend carefully considering the amount you wish to deposit based on your expected usage of our services. If you have any questions about billing or need assistance in planning your Submodel expenses, please don't hesitate to contact our support team at admin@submodel.ai.
 
 ## Security
 
@@ -73,10 +73,6 @@ Usually, this happens for one of several reasons. If you can't figure it out, [c
 We don't currently support Windows. We want to do this in the future, but we do not have a solid timeframe for Windows support.
 
 ### Why do I have zero GPUs assigned to my Pod?
-If you want to avoid this, using network volumes is the best choice. Read about it here.
-
-Learn how to use them here.
-
 Most of our machines have between 4 and 8 GPUs per physical machine. When you start a Pod, it is locked to a specific physical machine. If you keep it running (On-Demand), then that GPU cannot be taken from you. However, if you stop your Pod, it becomes available for a different user to rent. When you want to start your Pod again, your specific machine may be wholly occupied! In this case, we give you the option to spin up your Pod with zero GPUs so you can retain access to your data.
 
 Remember that this does not mean there are no more GPUs of that type available, just none on the physical machine that specific Pod is locked to. Note that transfer Pods have limited computing capabilities, so transferring files using a UI may be difficult, and you may need to resort to terminal access or cloud sync options.
@@ -102,6 +98,10 @@ We implement a spending limit for newer accounts that will grow over time. This 
 ### Do you have some legal stuff I can look at?
 Sure, do! Take a look at our legal page.
 
+[Privacy Policy](https://submodel.ai/#/about/privacy)
+
+[Terms of Service](https://submodel.ai/#/about/terms)
+
 ## GDPR Compliance
 
 ### Is Submodel compliant with GDPR for data processed in Europe?
@@ -117,4 +117,4 @@ For servers hosted in GDPR-compliant regions like the European Union, we ensure:
 - **Data transfer mechanisms**: We ensure lawful and secure transfer of personal data outside the EU, where applicable, in compliance with GDPR requirements, utilizing appropriate mechanisms such as adequacy decisions, standard contractual clauses, or binding corporate rules.
 - **Compliance monitoring**: We regularly monitor and review our GDPR compliance to ensure ongoing effectiveness and adherence to regulatory requirements, conducting data protection impact assessments and internal audits as needed.
 
-For any inquiries or concerns regarding our GDPR compliance or our data protection practices, reach out to our team through email at business@submodel.ai.
+For any inquiries or concerns regarding our GDPR compliance or our data protection practices, reach out to our team through email at admin@submodel.ai.
