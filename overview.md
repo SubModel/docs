@@ -2,7 +2,7 @@
 
 Submodel.ai is a cloud computing platform tailored for AI, machine learning applications, and general computing needs.
 
-Experience enterprise-grade cloud computing at jaw-dropping prices - our solutions deliver comparable performance to RunPod at just 20% of their cost.
+Experience enterprise-grade cloud computing at jaw-dropping prices - our solutions deliver comparable performance to other leading providers at just 20% of their cost.
 
 Utilize our platform to execute your code using both GPU and CPU resources through our [Pods](pods/overview.md) and [Serverless](serverless/overview.md) computing options.
 
