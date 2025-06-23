@@ -117,7 +117,7 @@ import os
 # Initialize the OpenAI Client with your SubModel API Key and Endpoint URL
 client = OpenAI(
     api_key=os.environ.get("SUBMODEL_API_KEY"),
-    base_url=f"https://api.SubModel.ai/v2/{SUBMODEL_ENDPOINT_ID}/openai/v1",
+    base_url=f"https://api.SubModel.ai/v1/sl/{SUBMODEL_ENDPOINT_ID}/openai/v1",
 )
 ```
 
