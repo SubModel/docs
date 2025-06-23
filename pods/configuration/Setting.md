@@ -28,7 +28,7 @@ Credentials for programmatic API access.
 1. Generate keys via console interface  
 2. Include in requests:  
    ```http
-   Authorization: Bearer API_KEY
+   x-apikey: YOUR_API_KEY
    ```  
 
 ### Security Policy  
@@ -47,7 +47,7 @@ Credentials for programmatic API access.
    ```
    Username: [registry_user]
    Password: [registry_token]
-   Server: [registry_url]
+   Endpoint: [registry_url]
    ```  
 2. Select credentials when creating templates  
 
