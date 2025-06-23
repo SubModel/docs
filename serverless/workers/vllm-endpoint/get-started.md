@@ -51,7 +51,6 @@ Follow these steps to deploy the vLLM Worker on a Serverless Endpoint:
    - Endpoint name
    - Select a GPU (ensure it supports CUDA 12.1.0+ under the **Advanced** tab if needed)
    - Configure the number of Workers
-   - (Optional) Enable **FlashBoot** to accelerate Worker startup times
    - Enter the vLLM SubModel Worker image name with the compatible CUDA version:
      - `submodel/worker-vllm:stable-cuda11.8.0`
      - `submodel/worker-v1-vllm:stable-cuda12.1.0`
@@ -91,13 +90,13 @@ The SubModel API provides an efficient way to interact with the vLLM endpoint by
 ### Synchronous Request
 
 ```http
-POST https://api.submodel.ai/v2/{endpoint_id}/run_sync
+POST https://api.submodel.ai/v1/sl/{endpoint_id}/run_sync
 ```
 
 ### Asynchronous Request
 
 ```http
-POST https://api.submodel.ai/v2/{endpoint_id}/run
+POST https://api.submodel.ai/v1/sl/{endpoint_id}/run
 ```
 
 ---
@@ -194,8 +193,8 @@ However, some models may have different roles, so you should check the model's c
 ```python
 import requests
 
-url = "https://api.submodel.ai/v2/<endpoint_id>/run"
-headers = {"Authorization": "Bearer YOUR_API_KEY", "Content-Type": "application/json"}
+url = "https://api.submodel.ai/v1/sl/<endpoint_id>/run"
+headers = {"x-apikey": "YOUR_API_KEY", "Content-Type": "application/json"}
 
 data = {"input": {
     "messages": [
@@ -212,8 +211,8 @@ print(response.json())
 ### cURL Example
 
 ```sh
-curl -X POST "https://api.submodel.ai/v2/yf2k4t0vl3ciaf/run" \
-     -H "Authorization: Bearer YOUR_API_KEY" \
+curl -X POST "https://api.submodel.ai/v1/sl/<endpoint_id>/run" \
+     -H "x-apikey: YOUR_API_KEY" \
      -H "Content-Type: application/json" \
      -d '{"input":
                {
