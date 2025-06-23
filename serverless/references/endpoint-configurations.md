@@ -59,10 +59,6 @@ The amount of time a worker remains running after completing its current request
 
 Default: 5 seconds
 
-## FlashBoot
-
-FlashBoot is SubModel’s magic solution for reducing the average cold-start times on your endpoint. It works probabilistically. When your endpoint has consistent traffic, your workers have a higher chance of benefiting from FlashBoot for faster spin-ups. However, if your endpoint isn’t receiving frequent requests, FlashBoot has fewer opportunities to optimize performance. There’s no additional cost associated with FlashBoot.
-
 ## Advanced
 
 Additional controls to help you control where your endpoint is deployed and how it responds to incoming requests.
