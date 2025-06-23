@@ -9,7 +9,7 @@ For more information on sending requests, refer to [Send a Request](/serverless/
 Asynchronous endpoints are designed for long-running tasks. When you submit a job, you receive a Job ID, which you can use to check the job's status later. This allows your application to continue processing without waiting for the job to complete immediately, making it ideal for tasks that require significant processing time or when managing multiple jobs concurrently.
 
 ```bash
-curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/run \
+curl -X POST https://api.submodel.ai/v1/sl/{endpoint_id}/run \
     -H 'Content-Type: application/json' \
     -H 'x-apikey: ${API_KEY}' \
     -d '{"input": {"prompt": "Your prompt"}}'
@@ -29,7 +29,7 @@ curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/run \
 Synchronous endpoints are suitable for short-lived tasks where immediate results are necessary. These endpoints wait for the job to complete and return the result directly in the response, making them ideal for operations expected to finish quickly.
 
 ```bash
-curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/runsync \
+curl -X POST https://api.submodel.ai/v1/sl/{endpoint_id}/runsync \
     -H 'Content-Type: application/json' \
     -H 'x-apikey: ${API_KEY}' \
     -d '{"input": {"prompt": "Your prompt"}}'
@@ -58,7 +58,7 @@ The `/health` endpoint provides insights into the operational status of the endp
 
 ```bash
 curl --request GET \
-     --url https://api.submodel.ai/v2/sl/{endpoint_id}/health \
+     --url https://api.submodel.ai/v1/sl/{endpoint_id}/health \
      --header 'accept: application/json' \
      --header 'x-apikey: ${API_KEY}'
 ```
@@ -86,7 +86,7 @@ curl --request GET \
 To cancel a job in progress, specify the `cancel` parameter with the endpoint ID and the job ID.
 
 ```bash
-curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/cancel/{job_id} \
+curl -X POST https://api.submodel.ai/v1/sl/{endpoint_id}/cancel/{job_id} \
     -H 'Content-Type: application/json' \
     -H 'x-apikey: ${API_KEY}'
 ```
@@ -105,7 +105,7 @@ curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/cancel/{job_id} \
 The `/purge-queue` endpoint allows you to clear all jobs currently in the queue, without affecting jobs already in progress. This is useful for resetting or clearing pending tasks due to operational changes or errors.
 
 ```bash
-curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/purge-queue \
+curl -X POST https://api.submodel.ai/v1/sl/{endpoint_id}/purge-queue \
     -H 'Content-Type: application/json' \
     -H 'x-apikey: ${API_KEY}'
 ```
@@ -124,7 +124,7 @@ curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/purge-queue \
 To track the progress or result of an asynchronous job, use the Job ID to check its status. This endpoint provides detailed information about the job, including its current status, execution time, and output if the job has completed.
 
 ```bash
-curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/status/{job_id} \
+curl -X POST https://api.submodel.ai/v1/sl/{endpoint_id}/status/{job_id} \
     -H 'x-apikey: ${API_KEY}'
 ```
 
@@ -149,7 +149,7 @@ curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/status/{job_id} \
 For jobs that produce output incrementally, the stream endpoint allows you to receive results as they are generated. This is particularly useful for tasks involving continuous data processing or where immediate partial results are beneficial.
 
 ```bash
-curl -X POST https://api.submodel.ai/v2/sl/{endpoint_id}/stream/{job_id} \
+curl -X POST https://api.submodel.ai/v1/sl/{endpoint_id}/stream/{job_id} \
     -H 'Content-Type: application/json' \
     -H 'x-apikey: ${API_KEY}'
 ```
