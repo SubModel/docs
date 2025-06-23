@@ -22,7 +22,7 @@ A Pod consists of several key components:
 - **Optional GPUs** Available for specific workloads such as CUDA or AI/ML tasks.
 - **Pre-configured Template:** Automates software installation and settings upon Pod creation, enabling quick access to various packages.
 - **Proxy Connection for Web Access:** Facilitates connectivity to any open port on the container.
-  - Example: `https://[pod-id]-[port number].proxy.submodel.ai`, such as `https://2s56cp0pof1rmt-7860.proxy.submodel.ai/`.
+  - Example: `https://[pod-id]-[port number].tun.submodel.ai`, such as `https://2s56cp0pof1rmt-7860.tun.submodel.ai/`.
 
 To get started, check out how to [Choose a Pod](/pods/choose-a-pod.md), then follow the guide on [Managing Pods](/pods/manage-pods.md).
 
