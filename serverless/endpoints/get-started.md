@@ -25,7 +25,7 @@ Once your Endpoint is deployed, you can send a request using cURL. This example 
 
 ```curl
 curl --request POST \
-     --url https://api.submodel.ai/v2/sl/${endpoint_id}/runsync \
+     --url https://api.submodel.ai/v1/sl/${endpoint_id}/runsync \
      --header "accept: application/json" \
      --header "x-apikey: ${YOUR_API_KEY}" \
      --header "content-type: application/json" \
