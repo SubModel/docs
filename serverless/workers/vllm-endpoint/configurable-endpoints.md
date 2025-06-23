@@ -1,4 +1,3 @@
-```markdown
 # Environment Variables
 
 Environment variables are essential for configuring your vLLM Worker, enabling control over model selection, access credentials, and operational parameters to ensure optimal performance.
@@ -131,4 +130,3 @@ This table provides a reference to the image tags you should use based on the de
 
 > **Note**  
 > If you are facing issues when using Mixtral 8x7B, Quantized models, or handling unusual models/architectures, try setting `TRUST_REMOTE_CODE` to `1`.
-```
