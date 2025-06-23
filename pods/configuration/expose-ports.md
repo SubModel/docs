@@ -19,7 +19,7 @@ In this scenario, ensure the port you wish to expose (4000 in this case) is set 
 Once this is done and your server is running, you should be able to access your server using the pod's proxy address, which is formed programmatically as follows, where the pod ID is the unique ID of your pod, and the internal port in this case is 4000:
 
 ```text
-https://{POD_ID}-{INTERNAL_PORT}.proxy.SubModel.net
+https://{POD_ID}-{INTERNAL_PORT}.tun.submodel.ai
 ```
 
 Remember, this is exposed to the public internet. While your pod ID can act as a sort of password, it's not a substitute for real authentication, which should be implemented at your API level.
