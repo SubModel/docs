@@ -127,11 +127,10 @@ This step will guide you through deploying a Serverless Endpoint to SubModel. Yo
    1. Endpoint name.
    2. Select your GPU configuration.
    3. Configure the number of Workers.
-   4. (Optional) Select **FlashBoot**.
-   5. (Optional) Select a template.
-   6. Enter the name of your Docker image.
+   4. Select a template.
+   5. Enter the name of your Docker image.
       - For example, `<username>/<repo>:<tag>`.
-   7. Specify enough memory for your Docker image.
+   6. Specify enough memory for your Docker image.
 4. Select **Deploy**.
 
 Now, let's send a request to your [Endpoint](/serverless/endpoints/get-started.md).
