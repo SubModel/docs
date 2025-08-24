@@ -57,6 +57,22 @@
     * [Environment Variables](serverless/workers/vllm-endpoint/environment-variables.md)
     * [OpenAI Compatibility](serverless/workers/vllm-endpoint/openai-compatibility.md)
 
+## InstaGen
+
+* [Overview](instagen/overview.md)
+* [Get Started](instagen/get-started.md)
+* [API Reference](instagen/api-reference.md)
+* [Models](instagen/models/overview.md)
+  * [Overview](instagen/models/overview.md)
+  * [Available Models](instagen/models/available-models.md)
+* [Access Keys](instagen/access-keys/overview.md)
+  * [Overview](instagen/access-keys/overview.md)
+  * [Create Keys](instagen/access-keys/create-key.md)
+  * [Manage Keys](instagen/access-keys/manage-keys.md)
+* [Usage Analytics](instagen/usage/overview.md)
+* [Limits and Policies](instagen/limits-and-policies.md)
+* [Privacy Policy](instagen/privacy.md)
+
 ## References
 * [FAQ](references/FAQ.md)
 * [GPU Types](references/gpu-types.md)
