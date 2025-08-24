@@ -58,7 +58,7 @@ curl -X POST https://llm.submodel.ai/v1/chat/completions \
   -H "Authorization: Bearer YOUR_ACCESS_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "qwen3-coder-480b-a35b-instruct-fp8",
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
     "messages": [{"role": "user", "content": "Hello"}]
   }'
 ```

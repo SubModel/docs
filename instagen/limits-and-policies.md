@@ -24,11 +24,10 @@ Contact us with:
 - **Batch Requests**: Group related calls
 - **Efficient Prompts**: Optimize token usage
 - **Client-side Limiting**: Implement rate management
-- **Monitor Usage**: Track consumption patterns
 
 ## Contact
 
-- **Email**: admin@submodel.ai
+- **Email**: support@submodel.ai
 - **Subject**: Rate Limit Increase Request
 
 ## Next Steps
