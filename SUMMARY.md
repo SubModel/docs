@@ -8,11 +8,6 @@
 * [Billing Information](Get%20started/Billing%20information.md)
 * [API keys](Get%20started/API%20keys.md)
 
-## Hosting
-
-* [Overview](Hosting/Overview.md)
-* [FAQ](Hosting/FAQ.md)
-
 ## Pod
 
 * [Overview](pods/overview.md)
@@ -72,6 +67,11 @@
 * [Usage Analytics](instagen/usage/overview.md)
 * [Limits and Policies](instagen/limits-and-policies.md)
 * [Privacy Policy](instagen/privacy.md)
+
+## Hosting
+
+* [Overview](Hosting/Overview.md)
+* [FAQ](Hosting/FAQ.md)
 
 ## References
 * [FAQ](references/FAQ.md)
