@@ -28,15 +28,14 @@ This is suitable for users who wish to entrust a third-party operations team to 
 ### 3. Recharge and Settlement
 
 #### 3.1 Recharge
-Currently, only crypto payment interfaces are supported. In the future, other payment interfaces such as credit cards and PayPal will be supported. Different recharge discounts will be adjusted according to different channels to meet the diverse needs of users.
+Currently, stripe(credit card) and crypto payment interfaces are supported. In the future, other payment interfaces such as PayPal will be supported. Different recharge discounts will be adjusted according to different channels to meet the diverse needs of users.
 
-*Note: If users (B2B users only) need to recharge using RMB, they can sign a contract with us and make a public-to-public transfer. We will recharge the user’s account through the backend.*
+*Note: If users (B2B users only) need to recharge using Bank transfer, they can sign a contract with us and make a public-to-public transfer. We will recharge the user’s account through the backend.*
 
 #### 3.2 Settlement Rules
 The platform's settlement rules are real-time. Fees are deducted in real-time after consumption. For time-based billing products, fees are deducted once. For usage-based billing products, the minimum billing unit is 1 hour.
 
 - **Credit Settlement**: A settlement method based on points or balance calculation, with a value of 1:1 to USD.
-- **RMB Settlement**: If users need to settle in RMB, they can sign a settlement contract with us and make RMB transfers. The settlement cycle must be on a quarterly basis.
 
 **Business Cooperation Matchmaking Email**：
 📧 [business@submodel.ai](mailto:business@submodel.ai)
