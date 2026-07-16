@@ -21,14 +21,14 @@ This table provides a reference to the image tags you should use based on the de
 |------|---------|--------------|-------------|
 | `MODEL_NAME` | 'facebook/opt-125m' | `str` | Name or path of the Hugging Face model to use. |
 | `TOKENIZER` | None | `str` | Name or path of the Hugging Face tokenizer to use. |
-| `SKIP_TOKENIZER_INIT` | False | `极简` | Skip initialization of tokenizer and detokenizer. |
+| `SKIP_TOKENIZER_INIT` | False | `bool` | Skip initialization of tokenizer and detokenizer. |
 | `TOKENIZER_MODE` | 'auto' | ['auto', 'slow'] | The tokenizer mode. |
 | `TRUST_REMOTE_CODE` | `False` | `bool` | Trust remote code from Hugging Face. |
 | `DOWNLOAD_DIR` | None | `str` | Directory to download and load the weights. |
 | `LOAD_FORMAT` | 'auto' | `str` | The format of the model weights to load. |
 | `HF_TOKEN` | - | `str` | Hugging Face token for private and gated models. |
 | `DTYPE` | 'auto' | ['auto', 'half', 'float16', 'bfloat16', 'float', 'float32'] | Data type for model weights and activations. |
-| `KV极简` | 'auto' | ['auto', 'fp8'] | Data type for KV cache storage. |
+| `KV_CACHE_DTYPE` | 'auto' | ['auto', 'fp8'] | Data type for KV cache storage. |
 | `QUANTIZATION_PARAM_PATH` | None | `str` | Path to the JSON file containing the KV cache scaling factors. |
 | `MAX_MODEL_LEN` | None | `int` | Model context length. |
 | `GUIDED_DECODING_BACKEND` | 'outlines' | ['outlines', 'lm-format-enforcer'] | Which engine will be used for guided decoding by default. |
@@ -46,7 +46,7 @@ This table provides a reference to the image tags you should use based on the de
 | `NUM_GPU_BLOCKS_OVERRIDE` | None | `int` | If specified, ignore GPU profiling result and use this number of GPU blocks. |
 | `MAX_NUM_BATCHED_TOKENS` | None | `int` | Maximum number of batched tokens per iteration. |
 | `MAX_NUM_SEQS` | 256 | `int` | Maximum number of sequences per iteration. |
-| `MAX_LOGPROBS极简` | 20 | `int` | Max number of log probs to return when logprobs is specified in SamplingParams. |
+| `MAX_LOGPROBS` | 20 | `int` | Max number of log probs to return when logprobs is specified in SamplingParams. |
 | `DISABLE_LOG_STATS` | False | `bool` | Disable logging statistics. |
 | `QUANTIZATION` | None | ['awq', 'squeezellm', 'gptq'] | Method used to quantize the weights. |
 | `ROPE_SCALING` | None | `dict` | RoPE scaling configuration in JSON format. |
