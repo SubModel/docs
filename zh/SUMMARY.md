@@ -73,6 +73,19 @@
 * [概览](Hosting/Overview.md)
 * [FAQ](Hosting/FAQ.md)
 
+## SDK
+
+* [概览](sdk/overview.md)
+* [快速开始](sdk/get-started.md)
+* [CLI 参考](sdk/cli.md)
+* [Pod](sdk/pod.md)
+* [Serverless](sdk/serverless.md)
+* [Storage](sdk/storage.md)
+
+## 版本发布
+
+* [preview-20260803](releases/preview-20260803.md)
+
 ## References
 * [FAQ](references/FAQ.md)
 * [GPU Types](references/gpu-types.md)

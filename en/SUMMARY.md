@@ -73,6 +73,19 @@
 * [Overview](Hosting/Overview.md)
 * [FAQ](Hosting/FAQ.md)
 
+## SDK
+
+* [Overview](sdk/overview.md)
+* [Get Started](sdk/get-started.md)
+* [CLI Reference](sdk/cli.md)
+* [Pod](sdk/pod.md)
+* [Serverless](sdk/serverless.md)
+* [Storage](sdk/storage.md)
+
+## Releases
+
+* [preview-20260803](releases/preview-20260803.md)
+
 ## References
 * [FAQ](references/FAQ.md)
 * [GPU Types](references/gpu-types.md)
